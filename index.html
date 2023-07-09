@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDPlay</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div class="play">
+            <audio id="audio">
+                <source src="" type="audio/mpeg">
+            </audio>
+            <div class="play-info">
+                <h1 class="play-title">MDPlay</h1>
+                <img class="play-info-img" src="./assets/audio//img/hans-eiskonen-8Pm_A-OHJGg-unsplash 1.jpg" alt="Acorda Divinho">
+                <div class="play-music-title">
+                    <h4 class="play-music--name">Acorda Devinho</h4>
+                    <p class="play-band--name">Banda Rocketseat</p>
+                </div>
+                <div class="play-controls">
+                    <span id="prevButton" class="play-btn"> <ion-icon name="play-back"></ion-icon> </span>
+                    <span id="playPauseButton" class="play-btn"> <ion-icon name="play"></ion-icon> </span>
+                    <span id="nextButton"  class="play-btn"> <ion-icon name="play-forward"></ion-icon> </span>
+                </div>
+                <div class="play-time">
+                    <progress class="progress-bar" value="0.8" max="100"></progress>
+                    <div class="play-times">
+                        <span id="currentTime">02:12</span>
+                        <span id="duration">03:20</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
