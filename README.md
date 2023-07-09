@@ -1,4 +1,4 @@
-![image](https://github.com/maladro2010/MDPlayer/assets/18300230/c8cd6059-efa0-4db4-b740-2f6e32174d77)<h1 align="center">MDPlayer</h1>
+<h1 align="center">MDPlayer</h1>
 
 <p align="center">
 Player de audio personalizado criando com html, css, javascript.
