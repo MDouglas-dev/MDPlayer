@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O MDPlayer é um player de audio personalizado.
 
-- [Acesse o projeto finalizado, online](https://maladro2010.github.io/MDPlayer/)
+- [Acesse o projeto finalizado, online](https://MDouglas-dev.github.io/MDPlayer/)
 
 ## 🔖 Layout
 
